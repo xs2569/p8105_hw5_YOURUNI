@@ -132,6 +132,8 @@ print(estimates_plot)
 
 
 # Problem 3: Homicide Analysis --------------------------------------------
+There are 52179 observations and 12 varibles in the raw data.
+They are uid, reported_date, victim_last, victim_first, victim_race, victim_age, victim_sex, city, state, lat, lon and disposition.
 ```{r}
 # Read and clean the data
 homicide_data = read_csv("./data/homicide-data.csv") %>%
